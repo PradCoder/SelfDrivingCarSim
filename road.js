@@ -38,12 +38,6 @@ class Road{
                 this.right,
                 i/this.laneCount
             );
-
-            if(i>0 && i<this.laneCount){
-                context.setLineDash([20,20]);
-            }else{
-                context.setLineDash([]);
-            }
         
         context.setLineDash([20,20]);
         context.beginPath();
